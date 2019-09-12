@@ -1,0 +1,391 @@
+     ©°©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©´
+     ©¦                        ? MobaXterm 10.4 ?                          ©¦
+     ©¦            (SSH client, X-server and networking tools)             ©¦
+     ©¦                                                                    ©¦
+     ©¦ ? SSH session to reader@10.14.4.51                                 ©¦
+     ©¦   ? SSH compression : ?                                            ©¦
+     ©¦   ? SSH-browser     : ?                                            ©¦
+     ©¦   ? X11-forwarding  : ?  (disabled or not supported by server)     ©¦
+     ©¦   ? DISPLAY         : 10.2.248.101:1.0                             ©¦
+     ©¦                                                                    ©¦
+     ©¦ ? For more info, ctrl+click on help or visit our website           ©¦
+     ©¸©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¼
+
+
+*************************************************************************
+*         Copyright (C) 2014-2018 Huawei Technologies Co., Ltd.         *
+*                           All rights reserved.                        *
+*               Without the owner's prior written consent,              *
+*        no decompiling or reverse-engineering shall be allowed.        *
+*************************************************************************
+
+
+Info: The max number of VTY users is 10, and the number
+      of current VTY users on line is 2.
+      The current login time is 2019-08-05 11:58:49+08:00.
+<dgd41bfwhw01>dis
+<dgd41bfwhw01>display ip int br
+<dgd41bfwhw01>display ip int brief
+2019-08-05 11:59:02.430 +08:00
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+(E): E-Trunk down
+The number of interface that is UP in Physical is 15
+The number of interface that is DOWN in Physical is 31
+The number of interface that is UP in Protocol is 4
+The number of interface that is DOWN in Protocol is 42
+
+Interface                         IP Address/Mask      Physical   Protocol
+GigabitEthernet0/0/0              10.14.4.51/24        up         up
+GigabitEthernet1/0/0              unassigned           down       down
+GigabitEthernet1/0/1              172.30.65.52/24      up         up
+GigabitEthernet1/0/2              unassigned           down       down
+GigabitEthernet1/0/3              unassigned           down       down
+GigabitEthernet1/0/4              unassigned           down       down
+GigabitEthernet1/0/5              unassigned           down       down
+GigabitEthernet1/0/6              unassigned           down       down
+GigabitEthernet1/0/7              unassigned           down       down
+GigabitEthernet1/0/8              unassigned           down       down
+GigabitEthernet1/0/9              unassigned           down       down
+GigabitEthernet1/0/10             unassigned           down       down
+GigabitEthernet1/0/11             unassigned           down       down
+GigabitEthernet2/0/0              unassigned           down       down
+GigabitEthernet2/0/1              unassigned           down       down
+GigabitEthernet2/0/2              unassigned           down       down
+GigabitEthernet2/0/3              unassigned           down       down
+GigabitEthernet2/0/4              unassigned           down       down
+GigabitEthernet2/0/5              unassigned           down       down
+GigabitEthernet2/0/6              unassigned           down       down
+GigabitEthernet2/0/7              unassigned           down       down
+GigabitEthernet2/0/8(10G)         unassigned           down       down
+GigabitEthernet2/0/9(10G)         unassigned           down       down
+GigabitEthernet3/0/0              unassigned           down       down
+GigabitEthernet3/0/1              unassigned           down       down
+GigabitEthernet3/0/2              unassigned           down       down
+GigabitEthernet3/0/3              unassigned           down       down
+GigabitEthernet3/0/4              unassigned           down       down
+GigabitEthernet3/0/5              unassigned           down       down
+GigabitEthernet3/0/6              unassigned           down       down
+GigabitEthernet3/0/7              unassigned           down       down
+GigabitEthernet3/0/8(10G)         unassigned           down       down
+GigabitEthernet3/0/9(10G)         unassigned           down       down
+NULL0                             unassigned           up         up(s)
+Tunnel0                           192.168.65.66/30     up         down
+Tunnel1                           192.168.65.70/30     up         down
+Tunnel2                           192.168.65.106/30    up         down
+Tunnel3                           192.168.65.110/30    up         down
+Tunnel4                           192.168.65.114/30    up         down
+Tunnel5                           192.168.66.2/30      up         down
+Tunnel6                           192.168.66.6/30      up         down
+Tunnel7                           192.168.66.10/30     up         down
+Tunnel8                           192.168.66.250/30    up         down
+Tunnel9                           192.168.66.50/30     up         down
+Tunnel10                          192.168.66.54/30     up         down
+Virtual-if0                       unassigned           up         up(s)
+
+<dgd41bfwhw01>dis
+<dgd41bfwhw01>display cu
+<dgd41bfwhw01>display current-configuration  in
+<dgd41bfwhw01>display current-configuration  interface tun
+<dgd41bfwhw01>display current-configuration  interface Tunnel 0
+2019-08-05 11:59:21.250 +08:00
+#
+interface Tunnel0
+ ip address 192.168.65.66 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.73.41.2
+ alias 10.73.41.2
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 1
+2019-08-05 11:59:23.380 +08:00
+#
+interface Tunnel1
+ ip address 192.168.65.70 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.77.165.35
+ alias 10.77.165.35
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 2
+2019-08-05 11:59:25.830 +08:00
+#
+interface Tunnel2
+ ip address 192.168.65.106 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.96.32.5
+ alias 10.96.32.5????A9
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 3
+2019-08-05 11:59:28.160 +08:00
+#
+interface Tunnel3
+ ip address 192.168.65.110 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.128.96.3
+ alias 10.128.96.3????C??test
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 4
+2019-08-05 11:59:29.850 +08:00
+#
+interface Tunnel4
+ ip address 192.168.65.114 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.37.0.83
+ alias 10.37.0.83?????????test
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 5
+2019-08-05 11:59:31.400 +08:00
+#
+interface Tunnel5
+ ip address 192.168.66.2 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.58.0.16
+ alias 10.58.0.16?????????AAA
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 6
+2019-08-05 11:59:33.470 +08:00
+#
+interface Tunnel6
+ ip address 192.168.66.6 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.61.0.64
+ alias 10.61.0.64??????????szxg4????
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 7
+2019-08-05 11:59:35.530 +08:00
+#
+interface Tunnel7
+ ip address 192.168.66.10 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.61.0.65
+ alias 10.61.0.65??????????szxg4??????
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 8
+2019-08-05 11:59:37.510 +08:00
+#
+interface Tunnel8
+ ip address 192.168.66.250 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.76.254.100
+ alias 10.76.254.100test
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 9
+2019-08-05 11:59:40.000 +08:00
+#
+interface Tunnel9
+ ip address 192.168.66.50 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.77.1.4
+ alias 10.77.1.4J1???£¤
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>display current-configuration  interface Tunnel 10
+2019-08-05 11:59:42.770 +08:00
+#
+interface Tunnel10
+ ip address 192.168.66.54 255.255.255.252
+ tunnel-protocol gre
+ keepalive
+ source 172.30.65.52
+ destination 10.77.1.6
+ alias 10.77.1.6J1???£¤
+ undo service-manage enable
+#
+return
+<dgd41bfwhw01>dis
+<dgd41bfwhw01>display ro
+<dgd41bfwhw01>display ro
+<dgd41bfwhw01>display route?
+  route                                   route-policy
+  router
+<dgd41bfwhw01>display route ?
+  resource  Route resource
+
+<dgd41bfwhw01>displ
+<dgd41bfwhw01>display cu
+<dgd41bfwhw01>display current-configuration  in
+<dgd41bfwhw01>display current-configuration | in
+<dgd41bfwhw01>display current-configuration | include route
+<dgd41bfwhw01>display current-configuration | include stattic
+2019-08-05 12:00:35.800 +08:00
+<dgd41bfwhw01>display current-configuration | include static
+2019-08-05 12:00:42.430 +08:00
+ip route-static 0.0.0.0 0.0.0.0 172.30.65.1
+ip route-static 10.1.32.0 255.255.240.0 10.14.4.1 description DGG ITOC RD
+ip route-static 10.2.238.0 255.255.254.0 10.14.4.1 preference 100 description DG ework
+ip route-static 10.2.240.0 255.255.240.0 10.14.4.1 description DGG ITOC
+ip route-static 10.3.43.0 255.255.255.0 172.30.65.1
+ip route-static 10.3.80.0 255.255.240.0 10.14.4.1 description ???????????????????????IM09005030
+ip route-static 10.3.207.197 255.255.255.255 172.30.65.1
+ip route-static 10.5.88.0 255.255.254.0 10.14.4.1 description ework
+ip route-static 10.5.89.0 255.255.255.0 10.14.4.1 description ework
+ip route-static 10.9.52.0 255.255.254.0 10.14.4.1 description ework
+ip route-static 10.9.53.0 255.255.255.0 10.14.4.1 description ework
+ip route-static 10.34.178.0 255.255.255.0 Tunnel3
+ip route-static 10.34.179.0 255.255.255.0 Tunnel3
+ip route-static 10.34.230.0 255.255.254.0 Tunnel2
+ip route-static 10.37.0.83 255.255.255.255 172.30.65.1
+ip route-static 10.37.106.0 255.255.254.0 Tunnel4
+ip route-static 10.37.108.0 255.255.254.0 Tunnel4
+ip route-static 10.37.110.0 255.255.254.0 Tunnel4
+ip route-static 10.37.112.0 255.255.254.0 Tunnel4
+ip route-static 10.37.114.0 255.255.254.0 Tunnel4
+ip route-static 10.37.116.0 255.255.254.0 Tunnel4
+ip route-static 10.40.92.0 255.255.254.0 Tunnel6 preference 70
+ip route-static 10.40.92.0 255.255.254.0 Tunnel7
+ip route-static 10.40.94.0 255.255.254.0 Tunnel6 preference 70
+ip route-static 10.40.94.0 255.255.254.0 Tunnel7
+ip route-static 10.40.104.0 255.255.254.0 Tunnel6
+ip route-static 10.40.104.0 255.255.254.0 Tunnel7
+ip route-static 10.40.106.0 255.255.254.0 Tunnel6
+ip route-static 10.40.106.0 255.255.254.0 Tunnel7
+ip route-static 10.40.108.0 255.255.254.0 Tunnel6
+ip route-static 10.40.108.0 255.255.254.0 Tunnel7
+ip route-static 10.40.114.0 255.255.254.0 Tunnel6
+ip route-static 10.40.114.0 255.255.254.0 Tunnel7
+ip route-static 10.40.116.0 255.255.254.0 Tunnel6
+ip route-static 10.40.116.0 255.255.254.0 Tunnel7
+ip route-static 10.58.0.16 255.255.255.255 172.30.65.1
+ip route-static 10.58.107.0 255.255.255.0 Tunnel5
+ip route-static 10.58.112.0 255.255.254.0 Tunnel5
+ip route-static 10.58.114.0 255.255.255.0 Tunnel5
+ip route-static 10.58.115.0 255.255.255.0 Tunnel5
+ip route-static 10.58.116.0 255.255.254.0 Tunnel5
+ip route-static 10.58.118.0 255.255.254.0 Tunnel5
+ip route-static 10.58.224.0 255.255.254.0 Tunnel5
+ip route-static 10.58.226.0 255.255.254.0 Tunnel5
+ip route-static 10.58.228.0 255.255.254.0 Tunnel5
+ip route-static 10.58.230.0 255.255.254.0 Tunnel5
+ip route-static 10.58.232.0 255.255.254.0 Tunnel5
+ip route-static 10.58.234.0 255.255.254.0 Tunnel5
+ip route-static 10.58.236.0 255.255.254.0 Tunnel5
+ip route-static 10.58.238.0 255.255.254.0 Tunnel5
+ip route-static 10.58.240.0 255.255.254.0 Tunnel5
+ip route-static 10.58.242.0 255.255.254.0 Tunnel5
+ip route-static 10.58.244.0 255.255.254.0 Tunnel5
+ip route-static 10.58.246.0 255.255.254.0 Tunnel5
+ip route-static 10.58.248.0 255.255.254.0 Tunnel5
+ip route-static 10.58.250.0 255.255.254.0 Tunnel5
+ip route-static 10.58.252.0 255.255.254.0 Tunnel5
+ip route-static 10.58.254.0 255.255.254.0 Tunnel5
+ip route-static 10.61.0.64 255.255.255.255 172.30.65.1
+ip route-static 10.61.0.65 255.255.255.255 172.30.65.1
+ip route-static 10.61.110.0 255.255.254.0 Tunnel6
+ip route-static 10.61.110.0 255.255.254.0 Tunnel7 preference 70
+ip route-static 10.61.112.0 255.255.254.0 Tunnel6
+ip route-static 10.61.112.0 255.255.254.0 Tunnel7 preference 70
+ip route-static 10.61.118.0 255.255.254.0 Tunnel6
+ip route-static 10.61.118.0 255.255.254.0 Tunnel7 preference 70
+ip route-static 10.61.120.0 255.255.254.0 Tunnel6
+ip route-static 10.61.120.0 255.255.254.0 Tunnel7 preference 70
+ip route-static 10.67.31.235 255.255.255.255 172.30.65.1
+ip route-static 10.73.41.2 255.255.255.255 172.30.65.1
+ip route-static 10.73.41.192 255.255.255.192 Tunnel0
+ip route-static 10.73.196.118 255.255.255.255 172.30.65.1
+ip route-static 10.77.5.209 255.255.255.255 Tunnel9
+ip route-static 10.77.5.209 255.255.255.255 Tunnel10
+ip route-static 10.77.5.244 255.255.255.255 Tunnel9
+ip route-static 10.77.5.244 255.255.255.255 Tunnel10
+ip route-static 10.77.5.247 255.255.255.255 Tunnel9
+ip route-static 10.77.5.247 255.255.255.255 Tunnel10
+ip route-static 10.77.165.35 255.255.255.255 172.30.65.1
+ip route-static 10.96.32.5 255.255.255.255 172.30.65.1
+ip route-static 10.96.33.0 255.255.255.0 Tunnel2
+ip route-static 10.96.34.0 255.255.255.0 Tunnel2
+ip route-static 10.96.35.0 255.255.255.0 Tunnel2
+ip route-static 10.96.36.0 255.255.254.0 Tunnel2
+ip route-static 10.96.38.0 255.255.254.0 Tunnel2
+ip route-static 10.96.40.0 255.255.254.0 Tunnel2
+ip route-static 10.96.48.0 255.255.254.0 Tunnel2
+ip route-static 10.96.50.0 255.255.255.0 Tunnel2
+ip route-static 10.96.51.0 255.255.255.0 Tunnel2
+ip route-static 10.96.52.0 255.255.255.0 Tunnel2
+ip route-static 10.96.53.0 255.255.255.0 Tunnel2
+ip route-static 10.96.54.0 255.255.255.0 Tunnel2
+ip route-static 10.116.0.0 255.255.0.0 10.14.4.1 description ??§¿???????????
+ip route-static 10.128.96.3 255.255.255.255 172.30.65.1
+ip route-static 10.128.97.0 255.255.255.0 Tunnel3
+ip route-static 10.128.98.0 255.255.255.0 Tunnel3
+ip route-static 10.132.216.0 255.255.255.0 Tunnel1
+<dgd41bfwhw01>dis
+<dgd41bfwhw01>display ip ro
+<dgd41bfwhw01>display ip routing-table
+2019-08-05 12:01:40.760 +08:00
+Route Flags: R - relay, D - download to fib
+------------------------------------------------------------------------------
+Routing Tables: Public
+         Destinations : 28       Routes : 28
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+        0.0.0.0/0   Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+      10.1.32.0/20  Static  60   0          RD   10.14.4.1       GigabitEthernet0/0/0
+     10.2.238.0/23  Static  100  0          RD   10.14.4.1       GigabitEthernet0/0/0
+     10.2.240.0/20  Static  60   0          RD   10.14.4.1       GigabitEthernet0/0/0
+      10.3.43.0/24  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+      10.3.80.0/20  Static  60   0          RD   10.14.4.1       GigabitEthernet0/0/0
+   10.3.207.197/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+      10.5.88.0/23  Static  60   0          RD   10.14.4.1       GigabitEthernet0/0/0
+      10.5.89.0/24  Static  60   0          RD   10.14.4.1       GigabitEthernet0/0/0
+      10.9.52.0/23  Static  60   0          RD   10.14.4.1       GigabitEthernet0/0/0
+      10.9.53.0/24  Static  60   0          RD   10.14.4.1       GigabitEthernet0/0/0
+      10.14.4.0/24  Direct  0    0           D   10.14.4.51      GigabitEthernet0/0/0
+     10.14.4.51/32  Direct  0    0           D   127.0.0.1       GigabitEthernet0/0/0
+     10.37.0.83/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+     10.58.0.16/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+     10.61.0.64/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+     10.61.0.65/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+   10.67.31.235/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+     10.73.41.2/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+  10.73.196.118/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+   10.77.165.35/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+     10.96.32.5/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+     10.116.0.0/16  Static  60   0          RD   10.14.4.1       GigabitEthernet0/0/0
+    10.128.96.3/32  Static  60   0          RD   172.30.65.1     GigabitEthernet1/0/1
+      127.0.0.0/8   Direct  0    0           D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0           D   127.0.0.1       InLoopBack0
+    172.30.65.0/24  Direct  0    0           D   172.30.65.52    GigabitEthernet1/0/1
+   172.30.65.52/32  Direct  0    0           D   127.0.0.1       GigabitEthernet1/0/1
+
+<dgd41bfwhw01>
